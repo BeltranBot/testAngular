@@ -1,0 +1,19 @@
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular.js Example</title>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body ng-controller="NameCtrl">
+    <ul>
+      <li ng-repeat="name in names">{{name}}
+        <a href="" ng-click="removeName(name)">remove</a>
+      </li>
+      <form ng-submit="addName()">
+        <input type="text" ng-model="enteredName"> 
+        <input type="submit" value="add"> 
+      </form>
+    </ul>
+  </body>
+</html>

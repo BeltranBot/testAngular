@@ -1,0 +1,25 @@
+[
+	{
+		"id": 1,
+		"firstName": "Will",
+		"lastName": "Stern",
+		"age": 33,
+		"tweets": [
+			{"id":1, "text": "Wow, would you look at that sky."},
+			{"id":2, "text": "Got a $30k raise today.."},
+			{"id":3, "text": "I hate it when people tweet about..."}
+		]
+	},
+	{
+		"id": 2,
+		"firstName": "Laura",
+		"lastName": "Stern",
+		"age": 27,
+		"tweets": [
+			{"id":4, "text": "@will haha you and your sky issues"},
+			{"id":5, "text": "My husband got a 30k raise today"},
+			{"id":6, "text": "I love it when people tweet about..."}
+		]
+	}
+
+]
